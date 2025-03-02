@@ -25,3 +25,15 @@ I am 24 years old, I work as a process design engineer. I think that my actual j
 -   Git, GitHub
 -   VS Code, IntelliJ IDEA
 -   Adobe Photoshop
+
+# Education
+
+-   **The branch of Gubkin University in Tashkent**
+    -   development and operation of gas and condensate fields
+
+# Languages
+
+-   **Uzbek**  - native speaker.
+-  **Russian**  - native speaker.
+- **Farsi**  - native speaker.
+-   **English**  - B1
