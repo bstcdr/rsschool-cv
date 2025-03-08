@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CSS Reset end */
+/* Variability Start */
+:root {
+    --main-color: #638ab1;
+    --text-color: #363636;
+    --white: #ffffff;
+    --gray: #638ab1;
+    --light-gray: #3b6ea2;
+    --orange: #d6932e;
+}
+
+/* End of Variability */
+/* Start of Main Style */
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway_regular-webfont.woff2') format('woff2'),
+        url('../raleway_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0030-U+0039, U+0410-U+044F, U+0451, U+0401, U+002E, U+002C, U+003F, U+0021, U+2014, U+2012, U+2013, U+2010, U+00AB, U+00BB;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway_bold-webfont.woff2') format('woff2'),
+        url('../fonts/raleway_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0030-U+0039, U+0410-U+044F, U+0451, U+0401, U+002E, U+002C, U+003F, U+0021, U+2014, U+2012, U+2013, U+2010, U+00AB, U+00BB;
+}
+
+@font-face {
+    font-family: 'storytella';
+    src: url('../fonts/storytella-webfont.woff2') format('woff2'),
+        url('../fonts/storytella-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0030-U+0039, U+0410-U+044F, U+0451, U+0401, U+002E, U+002C, U+003F, U+0021, U+2014, U+2012, U+2013, U+2010, U+00AB, U+00BB;
+}
+
+
+
+body {
+    width: 100%;
+    font-family: 'ralewayregular', sans-serif;
+    color: var(--text-color);
+}
+
+.cv-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cv-column {
+    width: 40%;
+    background-color: var(--gray);
+    padding: 0 50px 0 70px;
+}
+
+
+/* Main Style End */
+/* Header Style Start */
+.cv-header {
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cv-header__avatar {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.cv-header__picture {
+    border-radius: 50%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border: 15px solid var(--white);
+}
+
+.cv-header__title {
+    font-family: 'ralewaybold';
+    font-size: 45px;
+}
+
+.cv-header__title_span {
+    color: var(--main-color);
+    font-family: 'storytella';
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.cv-header__subtitle {
+    font-size: 25px;
+}
+
